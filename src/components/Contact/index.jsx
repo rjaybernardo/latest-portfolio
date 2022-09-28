@@ -35,7 +35,7 @@ const Contact = () => {
             <textarea
               name='message'
               placeholder='Enter your message'
-              rows='10'
+              rows='6'
               className='rounded-md border-2 bg-transparent p-2 text-white focus:outline-none'
             ></textarea>
             <button className='my-8 mx-auto flex items-center rounded-md bg-gradient-to-b from-pink-500 to-pink-800 px-6 py-3 text-white duration-300 hover:scale-110'>
