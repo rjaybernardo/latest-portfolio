@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-
 import { Link } from 'react-scroll'
+
 import { FaBars, FaTimes, FaGithub } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 import Logo from '/images/logo.png'
-import links from './data'
+import { navLinks, socialLinks } from './data'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className='hidden md:flex'>
-        {links.map(({ id, link }) => (
+        {navLinks.map(({ id, link }) => (
           <li key={id}>
             <Link to={link} smooth={true} duration={500}>
               {link}
@@ -41,7 +41,7 @@ const Navbar = () => {
             : 'absolute top-0 left-0 flex h-screen w-full flex-col items-center justify-center bg-[#0a192f]'
         }
       >
-        {links.map(({ id, link }) => (
+        {navLinks.map(({ id, link }) => (
           <li key={id} className='py-6 text-4xl'>
             <Link onClick={handleClick} to='home' smooth={true} duration={500}>
               {link}
@@ -49,6 +49,22 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+
+      {/* Social icons
+      <div className='fixed top-[35%] left-0 hidden flex-col lg:flex '>
+        <ul>
+          <li className='ml-[-100px] mb-1 flex h-[60px] w-[160px] items-center justify-between rounded bg-[#333333] duration-300 hover:ml-[-10px]'>
+            <a
+              className='flex w-full items-center justify-between text-gray-300'
+              href='https://github.com/rjaybernardo'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+        </ul>
+      </div> */}
     </div>
   )
 }

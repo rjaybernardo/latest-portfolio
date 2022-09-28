@@ -1,4 +1,4 @@
-const links = [
+export const navLinks = [
   {
     id: 1,
     link: 'home',
@@ -21,4 +21,17 @@ const links = [
   },
 ]
 
-export default links
+export const socialLinks = [
+  {
+    id: 1,
+    link: 'home',
+  },
+  {
+    id: 2,
+    link: 'about',
+  },
+  {
+    id: 3,
+    link: 'portfolio',
+  },
+]
