@@ -1,4 +1,4 @@
-export const navLinks = [
+const links = [
   {
     id: 1,
     link: 'home',
@@ -9,7 +9,7 @@ export const navLinks = [
   },
   {
     id: 3,
-    link: 'portfolio',
+    link: 'skills',
   },
   {
     id: 4,
@@ -21,17 +21,4 @@ export const navLinks = [
   },
 ]
 
-export const socialLinks = [
-  {
-    id: 1,
-    link: 'home',
-  },
-  {
-    id: 2,
-    link: 'about',
-  },
-  {
-    id: 3,
-    link: 'portfolio',
-  },
-]
+export default links

@@ -6,7 +6,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 import Logo from '/images/logo.png'
-import { navLinks, socialLinks } from './data'
+import links from './data'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className='hidden md:flex'>
-        {navLinks.map(({ id, link }) => (
+        {links.map(({ id, link }) => (
           <li key={id}>
             <Link to={link} smooth={true} duration={500}>
               {link}
@@ -41,7 +41,7 @@ const Navbar = () => {
             : 'absolute top-0 left-0 flex h-screen w-full flex-col items-center justify-center bg-[#0a192f]'
         }
       >
-        {navLinks.map(({ id, link }) => (
+        {links.map(({ id, link }) => (
           <li key={id} className='py-6 text-4xl'>
             <Link onClick={handleClick} to='home' smooth={true} duration={500}>
               {link}
