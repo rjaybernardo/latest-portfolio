@@ -45,6 +45,7 @@ const Experience = () => {
             </div>
           ))}
         </div>
+        <p className='py-6 text-center text-pink-600'>Password: Bernardo</p>
       </div>
     </div>
   )

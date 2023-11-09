@@ -18,7 +18,7 @@ const tech = [
     id: 2,
     title: 'Webflow',
     src: Webflow,
-    style: 'shadow-green-600',
+    style: 'shadow-blue-600',
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const tech = [
     id: 6,
     title: 'React',
     src: React,
-    style: 'shadow-blue-600',
+    style: 'shadow-blue-300',
   },
   {
     id: 7,

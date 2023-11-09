@@ -1,28 +1,28 @@
-import Netflix from '/images/netflix.png'
-import Crypto from '/images/crypto.png'
-import Expense from '/images/expense-tracker.png'
+import Noble from '/images/noble-origins.png'
+import Elljmv from '/images/elljmv.png'
+import Kayani from '/images/kayani.png'
 
 const portfolios = [
   {
     id: 1,
-    img: Netflix,
-    title: 'Netflix clone - React',
-    url: 'https://netflix-react-dd022.web.app/',
-    github: 'https://github.com/rjaybernardo/netflix-reactjs',
+    img: Noble,
+    title: 'Noble Origins',
+    url: 'https://yslxpn9wqbqujh3v-67617063190.shopifypreview.com',
+    github: 'https://github.com/rjaybernardo/noble-origins-shopify',
   },
   {
     id: 2,
-    img: Crypto,
-    title: 'Crypto Application',
-    url: 'https://mellow-smakager-4f111e.netlify.app/',
-    github: 'https://github.com/rjaybernardo/crypto-app-reactjs',
+    img: Elljmv,
+    title: 'Elljmv',
+    url: 'https://s8rbet1zfuyma7re-67617063190.shopifypreview.com',
+    github: 'https://github.com/rjaybernardo/shopify-forex-client',
   },
   {
     id: 3,
-    img: Expense,
-    title: ' Expense Tracker',
-    url: 'https://633216af00da93117ff01dda--aesthetic-gecko-2384ad.netlify.app/',
-    github: 'https://github.com/rjaybernardo/expense-tracker',
+    img: Kayani,
+    title: 'Kayani',
+    url: 'https://hr13ylvp9jbms5dy-67617063190.shopifypreview.com',
+    github: 'https://github.com/rjaybernardo/Kayani',
   },
 ]
 
